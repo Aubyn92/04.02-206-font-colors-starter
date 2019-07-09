@@ -1,0 +1,61 @@
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color:#c19e74;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+  color:#6e4b61;
+}
+
+h2 {
+  font-size: 1.5em;
+  color:#cabd61;
+}
+
+/*------DESKTOP------*/
+@media (min-width: 1400px) {
+  h1{
+    color:#6e4b61;
+  }
+  h2{
+    color:#cabd61;
+  }
+  body {
+    color:#c19e74;
+  }
+}
+
+/*------TABLET------*/
+@media (min-width: 768px) {
+	h1 {
+    color:#02cbd2;
+  }
+  h2 {
+    color:#fcc02a;
+  }
+
+  body {
+    color: 	#7b8f8e;
+  }
+}
+
+/*------PHONE-------*/
+@media (min-width: 320px) {
+  h1 {
+    color:#7b7d70;
+  }
+  h2 {
+    color:#4eafb8;
+  }
+  body {
+    color:#ff8641;
+  }
+}
